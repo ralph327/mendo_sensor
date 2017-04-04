@@ -1,0 +1,17 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="/scripts/jquery-1.11.3.js"></script>
+	<script src="/scripts/readSensor.js"></script></script>
+</head>
+<body>
+	{{template "main-navigation" .}}
+	{{template "trigger" .}}
+	<div id="display">
+		<div id="logo" class="row"><img src="/images/pluvia_logo.jpg" /></div>
+		<div class="row"><div class="label">Moisture: </div><div id="moisture" class="data">0</div></div>
+		<div class="row"><div class="label">Temperature: </div><div id="temperature" class="data">0</div></div>
+		<div class="row"><div class="label">Luminosity: </div><div id="luminosity" class="data">0</div></div>
+	</div>
+</body>
+</html>
